@@ -24,10 +24,11 @@ class Owner
   end
   
   def species
-    @specie = specie
+    @specie = "human"
   end
   
   def say_species
+    "I am #{@specie}"
   end
   
   def buy_fish(name)
