@@ -39,7 +39,7 @@ class Owner
     @pets[:cats]
   end
   
-  def dogss
+  def dogs
     @pets[:dogs]
   end
   
