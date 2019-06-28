@@ -55,12 +55,12 @@ class Owner
     @pets[:dogs].collect {|x| x.mood = "happy"}
   end
   
-  def play_with_cats
-    @pets[:cats].each {|x| x.mood = "happy"}
-  end 
+  # def play_with_cats
+  #   @pets[:cats].each {|x| x.mood = "happy"}
+  # end 
   
-  def feed_fish 
-    @pets[:fishes].each {|x| x.mood = "happy"}
+  def feed_cats
+    @pets[:cats].collect {|x| x.mood = "happy"}
   end
   
   def sell_pets
